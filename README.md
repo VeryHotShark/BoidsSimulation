@@ -5,8 +5,8 @@ CONTROLS:
 - WASD = Horizontal Movement 
 - Space / Left Control = Vertical Movement
 - Left Shift = Dash in Movement Direction
-- Left Mouse Button = Spawns Predator Projectile
-- Right Mouse Button = Spawns Attractor Projectile
+- Left Mouse Button = Spawns Predator Projectile ( Goes Towards nearest boid)
+- Right Mouse Button = Spawns Attractor Projectile ( Attracts Boids)
 - O / P = Despawn / Spawn more Boids
 - K / L = Decrement / Increment steering update interval
 
@@ -19,7 +19,7 @@ The project is written on top of the simple Framework I was provided in which ba
 Due to copyright I can't share the framework and can only share the parts of the Code I wrote, so there is no project solution to check.
 
 What I implemented was :
-- Ability to shoot Projectile and for them to physically react with boxes
+- Ability to shoot Projectile and for them to physically react with boxes 
 - Boids Simulation, Avoiding Each Other and Skyscrapers
 
 For birds flocks I used simple algorithm from Craig Reynolds using Separation, Cohesion and Alignment.

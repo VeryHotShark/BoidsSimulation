@@ -22,6 +22,13 @@ What I implemented was :
 - Ability to shoot Projectile and for them to physically react with boxes 
 - Boids Simulation, Avoiding Each Other and Skyscrapers
 
+Most important scripts to check :
+- [SpatialHashGrid](https://github.com/VeryHotShark/BoidsSimulation/blob/main/Sources/SpatialHashGrid.h)
+- [BoidManager](https://github.com/VeryHotShark/BoidsSimulation/blob/main/Sources/BoidManager.cpp)
+- [BoidSteeringController](https://github.com/VeryHotShark/BoidsSimulation/blob/main/Sources/BoidSteeringController.cpp)
+- [ProjectileController](https://github.com/VeryHotShark/BoidsSimulation/blob/main/Sources/ProjectileController.cpp)
+- [Projectile](https://github.com/VeryHotShark/BoidsSimulation/blob/main/Sources/Projectile.cpp)
+
 For birds flocks I used simple algorithm from Craig Reynolds using Separation, Cohesion and Alignment.
 For collisions I mostly used AABB (Axis Aligned Bounding Box) + simple Radius Checks
 For physics like Projectile movement I used some basic valocity, acceleration, drag calculations.
